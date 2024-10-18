@@ -8,3 +8,15 @@ C:\Users\fscho\Documents\GitHub\GTAV-radio\GTA radio\obj\Debug\GTA radio.csproj.
 C:\Users\fscho\Documents\GitHub\GTAV-radio\GTA radio\obj\Debug\GTA radio.exe
 C:\Users\fscho\Documents\GitHub\GTAV-radio\GTA radio\obj\Debug\GTA radio.pdb
 C:\Users\fscho\Documents\GitHub\GTAV-radio\GTA radio\obj\Debug\GTA_radio.radio.resources
+C:\Users\fscho\Documents\GitHub\GTAV radio stations\GTA radio\bin\Debug\GTA radio.exe.config
+C:\Users\fscho\Documents\GitHub\GTAV radio stations\GTA radio\bin\Debug\GTA radio.exe
+C:\Users\fscho\Documents\GitHub\GTAV radio stations\GTA radio\bin\Debug\GTA radio.pdb
+C:\Users\fscho\Documents\GitHub\GTAV radio stations\GTA radio\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\fscho\Documents\GitHub\GTAV radio stations\GTA radio\obj\Debug\GTA radio.csproj.AssemblyReference.cache
+C:\Users\fscho\Documents\GitHub\GTAV radio stations\GTA radio\obj\Debug\GTA_radio.radio.resources
+C:\Users\fscho\Documents\GitHub\GTAV radio stations\GTA radio\obj\Debug\GTA_radio.Properties.Resources.resources
+C:\Users\fscho\Documents\GitHub\GTAV radio stations\GTA radio\obj\Debug\GTA radio.csproj.GenerateResource.cache
+C:\Users\fscho\Documents\GitHub\GTAV radio stations\GTA radio\obj\Debug\GTA radio.csproj.CoreCompileInputs.cache
+C:\Users\fscho\Documents\GitHub\GTAV radio stations\GTA radio\obj\Debug\GTA radio.csproj.Up2Date
+C:\Users\fscho\Documents\GitHub\GTAV radio stations\GTA radio\obj\Debug\GTA radio.exe
+C:\Users\fscho\Documents\GitHub\GTAV radio stations\GTA radio\obj\Debug\GTA radio.pdb

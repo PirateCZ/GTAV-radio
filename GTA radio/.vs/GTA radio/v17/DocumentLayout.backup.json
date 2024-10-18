@@ -1,13 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\fscho\\Documents\\GitHub\\GTAV-radio\\GTA radio\\",
+  "WorkspaceRootPath": "C:\\Users\\fscho\\Documents\\GitHub\\GTAV radio stations\\GTA radio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A77F0A60-3BBD-4B15-A239-80152E4CF1E9}|GTA radio.csproj|c:\\users\\fscho\\documents\\github\\gtav-radio\\gta radio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A77F0A60-3BBD-4B15-A239-80152E4CF1E9}|GTA radio.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A77F0A60-3BBD-4B15-A239-80152E4CF1E9}|GTA radio.csproj|C:\\Users\\fscho\\Documents\\GitHub\\GTAV radio stations\\GTA radio\\mediaplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77F0A60-3BBD-4B15-A239-80152E4CF1E9}|GTA radio.csproj|solutionrelative:mediaplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A77F0A60-3BBD-4B15-A239-80152E4CF1E9}|GTA radio.csproj|c:\\users\\fscho\\documents\\github\\gtav-radio\\gta radio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A77F0A60-3BBD-4B15-A239-80152E4CF1E9}|GTA radio.csproj|c:\\users\\fscho\\documents\\github\\gtav radio stations\\gta radio\\audio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77F0A60-3BBD-4B15-A239-80152E4CF1E9}|GTA radio.csproj|solutionrelative:audio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A77F0A60-3BBD-4B15-A239-80152E4CF1E9}|GTA radio.csproj|C:\\Users\\fscho\\Documents\\GitHub\\GTAV radio stations\\GTA radio\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77F0A60-3BBD-4B15-A239-80152E4CF1E9}|GTA radio.csproj|solutionrelative:song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A77F0A60-3BBD-4B15-A239-80152E4CF1E9}|GTA radio.csproj|c:\\users\\fscho\\documents\\github\\gtav radio stations\\gta radio\\intro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77F0A60-3BBD-4B15-A239-80152E4CF1E9}|GTA radio.csproj|solutionrelative:intro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A77F0A60-3BBD-4B15-A239-80152E4CF1E9}|GTA radio.csproj|c:\\users\\fscho\\documents\\github\\gtav radio stations\\gta radio\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A77F0A60-3BBD-4B15-A239-80152E4CF1E9}|GTA radio.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,36 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\fscho\\Documents\\GitHub\\GTAV-radio\\GTA radio\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\fscho\\Documents\\GitHub\\GTAV radio stations\\GTA radio\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\fscho\\Documents\\GitHub\\GTAV-radio\\GTA radio\\Form1.cs*",
-              "RelativeToolTip": "Form1.cs*",
-              "ViewState": "AgIAAAIAAAAAAAAAAAASwBUAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\fscho\\Documents\\GitHub\\GTAV radio stations\\GTA radio\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAnwBoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-17T14:30:53.592Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\fscho\\Documents\\GitHub\\GTAV-radio\\GTA radio\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Users\\fscho\\Documents\\GitHub\\GTAV-radio\\GTA radio\\Form1.cs [Design]*",
-              "RelativeToolTip": "Form1.cs [Design]*",
+              "DocumentIndex": 1,
+              "Title": "Audio.cs",
+              "DocumentMoniker": "C:\\Users\\fscho\\Documents\\GitHub\\GTAV radio stations\\GTA radio\\Audio.cs",
+              "RelativeDocumentMoniker": "Audio.cs",
+              "ToolTip": "C:\\Users\\fscho\\Documents\\GitHub\\GTAV radio stations\\GTA radio\\Audio.cs",
+              "RelativeToolTip": "Audio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-17T13:19:21.654Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-18T13:29:44.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Intro.cs",
+              "DocumentMoniker": "C:\\Users\\fscho\\Documents\\GitHub\\GTAV radio stations\\GTA radio\\Intro.cs",
+              "RelativeDocumentMoniker": "Intro.cs",
+              "ToolTip": "C:\\Users\\fscho\\Documents\\GitHub\\GTAV radio stations\\GTA radio\\Intro.cs",
+              "RelativeToolTip": "Intro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T16:47:11.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Song.cs",
+              "DocumentMoniker": "C:\\Users\\fscho\\Documents\\GitHub\\GTAV radio stations\\GTA radio\\Song.cs",
+              "RelativeDocumentMoniker": "Song.cs",
+              "ToolTip": "C:\\Users\\fscho\\Documents\\GitHub\\GTAV radio stations\\GTA radio\\Song.cs",
+              "RelativeToolTip": "Song.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T15:15:37.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MediaPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\fscho\\Documents\\GitHub\\GTAV radio stations\\GTA radio\\MediaPlayer.cs",
+              "RelativeDocumentMoniker": "MediaPlayer.cs",
+              "ToolTip": "C:\\Users\\fscho\\Documents\\GitHub\\GTAV radio stations\\GTA radio\\MediaPlayer.cs",
+              "RelativeToolTip": "MediaPlayer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwCoAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T15:14:33.02Z",
+              "EditorCaption": ""
             }
           ]
         }

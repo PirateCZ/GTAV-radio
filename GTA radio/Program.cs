@@ -16,7 +16,7 @@ namespace GTA_radio
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new radio());
+            Application.Run(new Radio());
         }
     }
 }

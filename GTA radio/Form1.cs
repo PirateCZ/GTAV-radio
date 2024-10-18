@@ -11,11 +11,22 @@ using WMPLib;
 
 namespace GTA_radio
 {
-    public partial class radio : Form
+    public partial class Radio : Form
     {
-        public radio()
+        private MediaPlayer media;
+        public Radio()
         {
             InitializeComponent();
+            media = new MediaPlayer();
+            media.ChangeVolume(volumeScroll.Value);
+            media.LoadSongs();
+            media.LoadIntros();
+            media.PlaySong();
+        }
+
+        private void volumeScroll_Scroll(object sender, EventArgs e)
+        {
+            media.ChangeVolume(volumeScroll.Value);
         }
     }
 }

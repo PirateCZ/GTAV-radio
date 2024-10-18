@@ -1,6 +1,6 @@
 ﻿namespace GTA_radio
 {
-    partial class radio
+    partial class Radio
     {
         /// <summary>
         /// Required designer variable.
@@ -28,53 +28,54 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(radio));
-            this.logo = new System.Windows.Forms.PictureBox();
-            this.volume = new System.Windows.Forms.TrackBar();
-            ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.volume)).BeginInit();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Radio));
+            this.logoPicture = new System.Windows.Forms.PictureBox();
+            this.volumeScroll = new System.Windows.Forms.TrackBar();
+            ((System.ComponentModel.ISupportInitialize)(this.logoPicture)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.volumeScroll)).BeginInit();
             this.SuspendLayout();
             // 
-            // logo
+            // logoPicture
             // 
-            this.logo.Image = ((System.Drawing.Image)(resources.GetObject("logo.Image")));
-            this.logo.Location = new System.Drawing.Point(16, 12);
-            this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(400, 400);
-            this.logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.logo.TabIndex = 0;
-            this.logo.TabStop = false;
+            this.logoPicture.Image = ((System.Drawing.Image)(resources.GetObject("logoPicture.Image")));
+            this.logoPicture.Location = new System.Drawing.Point(16, 12);
+            this.logoPicture.Name = "logoPicture";
+            this.logoPicture.Size = new System.Drawing.Size(400, 400);
+            this.logoPicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logoPicture.TabIndex = 0;
+            this.logoPicture.TabStop = false;
             // 
-            // volume
+            // volumeScroll
             // 
-            this.volume.Cursor = System.Windows.Forms.Cursors.Default;
-            this.volume.LargeChange = 10;
-            this.volume.Location = new System.Drawing.Point(16, 435);
-            this.volume.Maximum = 100;
-            this.volume.Name = "volume";
-            this.volume.Size = new System.Drawing.Size(400, 56);
-            this.volume.TabIndex = 1;
-            this.volume.Value = 50;
+            this.volumeScroll.Cursor = System.Windows.Forms.Cursors.Default;
+            this.volumeScroll.LargeChange = 10;
+            this.volumeScroll.Location = new System.Drawing.Point(16, 435);
+            this.volumeScroll.Maximum = 100;
+            this.volumeScroll.Name = "volumeScroll";
+            this.volumeScroll.Size = new System.Drawing.Size(400, 45);
+            this.volumeScroll.TabIndex = 1;
+            this.volumeScroll.Value = 50;
+            this.volumeScroll.Scroll += new System.EventHandler(this.volumeScroll_Scroll);
             // 
-            // radio
+            // Radio
             // 
             this.AccessibleName = "GTA radio";
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(432, 503);
-            this.Controls.Add(this.volume);
-            this.Controls.Add(this.logo);
+            this.Controls.Add(this.volumeScroll);
+            this.Controls.Add(this.logoPicture);
             this.Font = new System.Drawing.Font("Yu Gothic Medium", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.Name = "radio";
+            this.Name = "Radio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GTAV Radio";
-            ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.volume)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.logoPicture)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.volumeScroll)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -82,8 +83,8 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox logo;
-        private System.Windows.Forms.TrackBar volume;
+        private System.Windows.Forms.PictureBox logoPicture;
+        private System.Windows.Forms.TrackBar volumeScroll;
     }
 }
 

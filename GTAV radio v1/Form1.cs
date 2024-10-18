@@ -177,5 +177,10 @@ namespace GTAV_radio_stations
         {
 
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
